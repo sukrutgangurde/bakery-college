@@ -23,8 +23,7 @@
 							feedback
 						</td>
 						<td>
-							<textarea name="txtfdesc" class="form-control">
-				</textarea>
+							<textarea name="txtfdesc" class="form-control"></textarea>
 						</td>
 					</tr>
 					<td>

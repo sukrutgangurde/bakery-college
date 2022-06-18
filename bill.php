@@ -78,8 +78,6 @@
 					$ftotal += $total;
 					echo $total; ?>
 				</td>
-
-
 			</tr>
 
 		<?php

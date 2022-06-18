@@ -26,9 +26,6 @@
 					<td>
 						Total
 					</td>
-
-
-
 				</Tr>
 
 				<?php

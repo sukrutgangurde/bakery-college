@@ -79,9 +79,6 @@
 									echo $r['pdisc']; ?>
 								</td>
 							</Tr>
-
-
-
 						</table>
 						</p>
 						<form method="post">

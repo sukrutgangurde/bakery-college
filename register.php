@@ -61,8 +61,6 @@
 							<input type="text" name="txtccon" pattern="^[0-9]{10}$" required class="form-control">
 						</td>
 					</tr>
-
-
 					<tr>
 						<td>
 							Gender

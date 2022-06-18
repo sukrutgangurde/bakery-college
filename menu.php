@@ -16,7 +16,6 @@
         } else {
 
         ?>
-
           <a class="nav-link" href="welcome.php">Products</a>
           <a class="nav-link" href="viewcart.php">Cart</a>
           <a class="nav-link" href="feedback.php">Feedback</a>

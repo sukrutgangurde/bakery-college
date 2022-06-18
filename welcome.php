@@ -101,9 +101,6 @@
 									echo $r['pdprice']; ?>
 								</td>
 							</Tr>
-
-
-
 						</table>
 						</p>
 						<a href="viewdetails.php?id=<?php echo $r['pid']; ?>" class="btn btn-primary">View Details</a>
