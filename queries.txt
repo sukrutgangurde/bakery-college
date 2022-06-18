@@ -1,15 +1,23 @@
 "insert into tbluser(uname,upass,email) values ('$txtname','$txtpass','$txtemail')" -- admin.php
+
 "select * from tbcart,tbproduct where tbproduct.pid=tbcart.pid and tbcart.custid='" . $_SESSION['custid'] . "'" -- bill.php
 "update tbcart set status='1' where custid=" . $_SESSION['custid'] -- bill.php
+
 "delete from tbcart where cartid=" . $_GET['cartid'] -- cancel.php
+
 "insert into tbfeedback(fdesc,custid)values('$txtfdesc','" . $_SESSION['custid'] . "')" -- feedback.php
+
 "select * from tbcustomer where cemail='$txtemail' and cpass='$txtpass'" -- login.php
 "select * from tbcustomer where cemail='" . $_SESSION['cemail'] . "'" -- login.php
+
 "insert into tbcustomer(cname,cpass,cemail,caddr,ccon,cgender) values ('$txtname','$txtpass','$txtemail','$txtaddr','$txtccon','$rbgender')" -- register.php
+
 "select * from tbcart,tbproduct where tbproduct.pid=tbcart.pid and tbcart.custid='" . $_SESSION['custid'] . "'" -- viewcart.php
+
 "select * from tbproduct where pid=" . $_GET["id"] -- viewdetails.php
 "insert into tbcart(pid,qty,custid)values('" . $_GET["id"] . "','$txtqty','" . $_SESSION['custid'] . "')" -- viewdetails.php
 "select * from tbproduct where pid=" . $_GET["id"] -- viewdetails.php
+
 "select * from tbcategory" -- welcome.php
 "select * from tbproduct where cid= '$cmbcat'" -- welcome.php
 "select * from tbproduct where pname like '%" . $txtsearch . "%'" -- welcome.php
