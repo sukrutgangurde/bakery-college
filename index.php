@@ -23,8 +23,8 @@
       <div class="carousel-item active">
         <img src="proimages/cake1.jpg" class="d-block w-100" alt="Sunset Over the City" />
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h5>Strawberry Cake</h5>
+          <p>Made with fresh strawberry.</p>
         </div>
       </div>
 
@@ -32,8 +32,8 @@
       <div class="carousel-item">
         <img src="proimages/cake2.jpg" class="d-block w-100" alt="Canyon at Nigh" />
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Foamed Cake</h5>
+          <p>Made with milk foam.</p>
         </div>
       </div>
 
@@ -41,8 +41,8 @@
       <div class="carousel-item">
         <img src="proimages/cake3.jpg" class="d-block w-100" alt="Cliff Above a Stormy Sea" />
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h5>Chocolate Cake</h5>
+          <p>Made with chocolates and chocolate syrup.</p>
         </div>
       </div>
     </div>
