@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<?php include 'head.php';?>
+	<?php include 'head.php'; ?>
 	<title></title>
 </head>
+
 <body>
-<?php include 'menu.php';?>
+	<?php include 'menu.php'; ?>
 
 	<table class="table">
 		<Tr>
@@ -32,59 +34,61 @@
 			</td>
 		</Tr>
 
-<?php
+		<?php
 
-$q=pg_query("select * from tbcart,tbproduct,tbcustomer where tbcustomer.custid=tbcart.custid and tbproduct.pid=tbcart.pid and status='1'");
-while ($r=pg_fetch_array($q)) {
-	?>
-	<Tr>
-		<Td>
-				<?php
-			
-	echo $r['custname'];?>
-			</Td>
-			<Td>
-				<?php
-			
-	echo $r['ccon'];?>
-			</Td>
-			<Td>
-				<?php
-			
-	echo $r['caddr'];?>
-			</Td>
-			<Td>
-				<?php
-			
-	echo $r['pname'];?>
-			</Td>
-			<td>
-				<?php
-	echo $r['pdprice'];?>
-			</td>
-			<td>
-				<?php
-	echo $r['qty'];?>
-			</td>
-			<td>
-				<?php $total=$r['pdprice']*$r['qty']; $ftotal+=$total;
-				echo $total;?>
-			</td>
-		
-			
-		</tr>
-	
-<?php	
-}
-?>
-<tR>
-	<td>
-Final Total=₹<?php echo $ftotal;?>/-
-</td>
-</tR>
+		$q = pg_query("select * from tbcart,tbproduct,tbcustomer where tbcustomer.custid=tbcart.custid and tbproduct.pid=tbcart.pid and status='1'");
+		while ($r = pg_fetch_array($q)) {
+		?>
+			<Tr>
+				<Td>
+					<?php
 
-</table>
+					echo $r['custname']; ?>
+				</Td>
+				<Td>
+					<?php
 
-<?php include 'footer.php';?>
+					echo $r['ccon']; ?>
+				</Td>
+				<Td>
+					<?php
+
+					echo $r['caddr']; ?>
+				</Td>
+				<Td>
+					<?php
+
+					echo $r['pname']; ?>
+				</Td>
+				<td>
+					<?php
+					echo $r['pdprice']; ?>
+				</td>
+				<td>
+					<?php
+					echo $r['qty']; ?>
+				</td>
+				<td>
+					<?php $total = $r['pdprice'] * $r['qty'];
+					$ftotal += $total;
+					echo $total; ?>
+				</td>
+
+
+			</tr>
+
+		<?php
+		}
+		?>
+		<tR>
+			<td>
+				Final Total=₹<?php echo $ftotal; ?>/-
+			</td>
+		</tR>
+
+	</table>
+
+	<?php include 'footer.php'; ?>
 </body>
+
 </html>
