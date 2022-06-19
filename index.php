@@ -7,9 +7,9 @@
 </head>
 
 <body>
-    <?php include 'menu.php'; ?>
+  <?php include 'menu.php'; ?>
+  <header class="header" style="color:black;">
 
-    <header class="header" style="color:black;">
         <div class="container">
             <div class="header__text">
                 <div class="header__text__logo">
@@ -46,7 +46,6 @@
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
     </div>
 
     <script src="./js/swiper-bundle.min.js"></script>
@@ -81,7 +80,6 @@
             }
         });
     </script>
-
     <?php include 'footer.php'; ?>
 </body>
 
