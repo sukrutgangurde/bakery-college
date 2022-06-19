@@ -36,19 +36,7 @@
 						<input type="submit" name="btnsearchbycat" value="Search">
 					</Td>
 				</tr>
-				<tr>
-					<tD>
-						Search By Name
-					</tD>
-					<td>
-						<input type="text" name="txtsearch" class="form-control">
-
-					</td>
-
-					<td>
-						<input type="submit" name="btnsearch" value="Search">
-					</td>
-				</Tr>
+				
 			</table>
 		</form>
 		<?php

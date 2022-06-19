@@ -48,7 +48,6 @@
 	?>
 
 	<?php include 'menu.php' ?>
-	<?php include 'bg1.php' ?>
 
 	<div class="row">
 		<form method="post">
