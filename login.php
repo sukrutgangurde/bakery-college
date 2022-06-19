@@ -6,17 +6,35 @@
     <title>Login</title>
     <style>
         form {
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("proimages/newwelcome.jpg");
-            background-size: cover;
-            background-position: center;
-            height: 70vh;
-            display: grid;
-            place-items: center;
+            /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("proimages/new-welcome.jpg"); */
+            /* background-size: cover; */
+            /* background-position: center; */
+            /* height: 70vh; */
+            /* display: grid; */
+            /* place-items: center; */
+            position: relative;
+        }
+
+        form img {
+            width: 100%;
+            display: block;
+            z-index: 4;
         }
 
         .table {
             width: max-content;
             border: 1px solid white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+        }
+
+        #row {
+            width: 100%;
+            margin: 0;
+            padding: 0;
         }
     </style>
 </head>
@@ -48,6 +66,7 @@
 
     <div class="row">
         <form method="post">
+            <img src="proimages/newwelcome.png">
             <table class="table">
                 <tr>
                     <td style="color: white;">Email</td>
