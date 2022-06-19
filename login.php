@@ -3,7 +3,7 @@
 
 <head>
 	<?php include 'head.php' ?>
-	<title></title>
+	<title>Login</title>
 </head>
 
 <body>
@@ -37,22 +37,13 @@
 			<form method="post">
 				<table class="table">
 					<tr>
-						<td>
-							Email
-						</td>
-						<td>
-							<input type="text" required pattern="[a-z]+[0-9]*@[a-z]+[0-9]*\.[a-z]{2,3}" name="txtemail" class="form-control">
-						</td>
+						<td>Email</td>
+						<td><input type="text" required pattern="[a-z]+[0-9]*@[a-z]+[0-9]*\.[a-z]{2,3}" name="txtemail" class="form-control"></td>
 					</tr>
 					<tr>
-						<td>
-							Password
-						</td>
-						<td>
-							<input type="password" required name="txtpass" class="form-control">
-						</td>
+						<td>Password</td>
+						<td><input type="password" required name="txtpass" class="form-control"></td>
 					</tr>
-
 					<tr>
 						<Td colspan=2 align="center">
 							<input type="submit" class="btn btn-success" name="btnlogin" value="Sign In">
@@ -65,6 +56,7 @@
 			<img src="proimages/welcome.jpg" width="100%">
 		</div>
 	</div>
+
 	<?php include 'footer.php' ?>
 </body>
 

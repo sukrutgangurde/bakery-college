@@ -1,8 +1,4 @@
 <footer class="text-center text-lg-start bg-light text-muted">
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    </div>
-    </div>
-  </section>
   <section class="">
     <div class="p-3 mb-2 bg-secondary bg-gradient text-white">
       <div class="container text-center text-md-start mt-5">
