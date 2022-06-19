@@ -1,6 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Bakery</a>
+    <a href="index.php">
+      <img src="proimages/logo.png" width="100px">
+    </a>
+    <!-- <a class="navbar-brand" href="#">Bakery</a> -->
     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars"></i>
     </button>
@@ -23,7 +26,6 @@
         <?php
         }
         ?>
-
 
       </div>
     </div>
