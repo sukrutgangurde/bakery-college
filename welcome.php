@@ -62,7 +62,7 @@
 		?>
 			<div class="col-md-4">
 				<div class="card">
-					<img src="admin/<?php echo $r['pimage']; ?>" class="card-img-top" alt="Fissure in Sandstone" />
+					<img src="admin/<?php echo $r['pimage']; ?>" class="card-img-top" style="width: 300px; height: 200px; object-fit: cover;" alt="Fissure in Sandstone" />
 					<div class="card-body">
 						<h5 class="card-title">Product Details</h5>
 						<p class="card-text">
