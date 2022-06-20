@@ -55,7 +55,6 @@
 		</Tr>
 
 		<?php
-
 		$q = pg_query("select * from tbcart,tbproduct where tbproduct.pid=tbcart.pid and tbcart.custid='" . $_SESSION['custid'] . "'");
 		while ($r = pg_fetch_array($q)) {
 		?>
