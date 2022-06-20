@@ -8,7 +8,6 @@
 
 <body>
 	<?php
-
 	if (isset($_POST["btnsave"])) {
 		extract($_POST);
 		pg_query("insert into tbcategory(catname) values ('$txtcatname')");

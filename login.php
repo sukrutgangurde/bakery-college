@@ -6,12 +6,6 @@
     <title>Login</title>
     <style>
         form {
-            /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("proimages/new-welcome.jpg"); */
-            /* background-size: cover; */
-            /* background-position: center; */
-            /* height: 70vh; */
-            /* display: grid; */
-            /* place-items: center; */
             position: relative;
         }
 

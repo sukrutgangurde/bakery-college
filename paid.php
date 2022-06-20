@@ -8,7 +8,7 @@
 
 <body>
 	<?php include 'menu.php'; ?>
-	<h1>Payment SUccessfull</h1>
+	<h1>Payment Successfull</h1>
 	<?php include 'footer.php'; ?>
 </body>
 
