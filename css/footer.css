@@ -11,11 +11,11 @@
 }
 
 .footer {
-  /* background: linear-gradient(to right, #264405, #182912); */
   background-color: #262626;
   color: #fff;
   font-family: Open Sans, sans-serif;
 }
+
 .footer__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
