@@ -20,7 +20,7 @@
 				<table class="table">
 					<tr>
 						<td>
-							feedback
+							Feedback
 						</td>
 						<td>
 							<textarea name="txtfdesc" class="form-control"></textarea>
