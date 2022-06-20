@@ -1,31 +1,41 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Bakery</a>
-    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
-        <?php
+<nav class="nav">
+        <div class="container">
+            <div class="nav__logo">
+                <a href="index.php" class="nav__logo__link">
+                    <img src="./proimages/logo.png" alt="Logo">
+                </a>
+            </div>
+            <?php
         if ($_SESSION['custid'] == null) {
         ?>
-          <a class="nav-link" href="register.php">Sign Up</a>
-          <a class="nav-link" href="login.php">Sign In</a>
+          <ul class="nav__links-list-not-logged-in nav-ul">
+                <li class="nav__links-list-not-logged-in__item">
+                    <a href="login.php" class="nav__links-list-not-logged-in__item__link nav__links-list-not-logged-in__item__link--sec">Sign In</a>
+                </li>
+                <li class="nav__links-list-not-logged-in__item">
+                    <a href="register.php" class="nav__links-list-not-logged-in__item__link nav__links-list-not-logged-in__item__link--main">Sign Up</a>
+                </li>
+            </ul>
         <?php
         } else {
 
         ?>
-          <a class="nav-link" href="welcome.php">Products</a>
-          <a class="nav-link" href="viewcart.php">Cart</a>
-          <a class="nav-link" href="feedback.php">Feedback</a>
-          <a class="nav-link" href="logout.php">Logout</a>
+          <ul class="nav__links-list-logged-in nav-ul">
+                <li class="nav__links-list-logged-in__item">
+                    <a href="welcome.php" class="nav__links-list-logged-in__item__link">Products</a>
+                </li>
+                <li class="nav__links-list-logged-in__item">
+                    <a href="viewcart.php" class="nav__links-list-logged-in__item__link">Cart</a>
+                </li>
+                <li class="nav__links-list-logged-in__item">
+                    <a href="feedback.php" class="nav__links-list-logged-in__item__link">Feedback</a>
+                </li>
+            </ul>
+            <div class="nav__logout">
+                <a href="logout.php" class="nav__logout__link">Logout</a>
+            </div>
         <?php
         }
         ?>
-
-
-      </div>
-    </div>
-  </div>
-</nav>
+        </div>
+    </nav>
