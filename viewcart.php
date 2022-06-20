@@ -68,7 +68,7 @@
 				</tR>
 				<tr>
 					<td>
-						<a href="bill.php">Pay</a>
+						<a href="bill.php">Confirm</a>
 					</td>
 				</tr>
 			</table>
