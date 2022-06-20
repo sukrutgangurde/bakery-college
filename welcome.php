@@ -4,13 +4,6 @@
 <head>
 	<?php include 'head.php'; ?>
 	<title>Welcome</title>
-	<style>
-		.card-img-top {
-			width: 300px;
-			height: 200px;
-			object-fit: cover;
-		}
-	</style>
 </head>
 
 <body>
